@@ -128,3 +128,41 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+/* new CSS content */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+
+}
+
+.background-img,
+.right {
+    border: 5px solid black;
+    min-height: 100%;
+
+}
+
+.background-img {
+    flex: 2;
+    /*
+    image downloaded from:
+    https://images.pexels.com/photos/15520949/pexels-photo-15520949.jpeg?cs=srgb&dl=pexels-art%C5%ABras-kokorevas-15520949.jpg&fm=jpg&_gl=1*a4n11k*_ga*NjU1NjgzODEuMTcwNzI0OTQ1NA..*_ga_8JE65Q40S6*MTcwNzI1MTkzMi4yLjAuMTcwNzI1MTkzMi4wLjAuMA..
+    */
+    background-image: url("images/pexels-artūras-kokorevas-15520949.jpg");
+    background-size: cover;
+}
+
+.brand {
+
+    color: rgb(171, 97, 97);
+    background-color: rgb(119, 166, 184, 0.5);
+
+    font-size: 4rem;
+}
+
+.right {
+    flex: 3;
+}
