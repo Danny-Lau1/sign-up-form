@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
 html,
 body,
 div,
@@ -85,6 +87,7 @@ video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    font-family: 'Paytone One', sans-serif;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -131,6 +134,10 @@ table {
 
 /* new CSS content */
 
+
+
+
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -158,11 +165,28 @@ table {
 .brand {
 
     color: rgb(171, 97, 97);
-    background-color: rgb(119, 166, 184, 0.5);
-
+    background-color: rgb(119, 166, 184, 0);
+    /*turned off transparency*/
     font-size: 4rem;
+    margin: 30% 0 0 0;
+    padding: 2% 2% 2% 50%;
 }
 
 .right {
     flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.right div {
+    border: 5px solid black;
+}
+
+.sign-up {
+    flex: 3;
+}
+
+.intro,
+.submit {
+    flex: 2
 }
