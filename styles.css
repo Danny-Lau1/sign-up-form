@@ -158,14 +158,18 @@ table {
     */
     background-image: url("images/pexels-artūras-kokorevas-15520949.jpg");
     background-size: cover;
+    display: flex;
+
+
 }
 
 .brand {
-
     color: rgb(171, 97, 97);
-    font-size: 4rem;
-    margin: 30% 0 0 0;
-    padding: 2% 2% 2% 49%;
+    font-size: 3vw;
+    margin-top: 50px;
+    margin-left: 350px;
+
+
 }
 
 .right {
@@ -183,15 +187,17 @@ table {
 
 }
 
-.right>div {
-    padding: 4%;
+h2,
+.form-container {
+    padding: 1% 1% 0% 1%;
 }
 
-.intro,
-.submit {
+
+.intro {
     flex: 2;
     background-color: #d9bb62;
     color: #353c40;
+    padding: 1%;
 }
 
 h1 {
@@ -206,11 +212,23 @@ h2 {
 .form-container {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 20px;
+
+
 }
 
 .form-container div {
-
     flex: 1;
+
+}
+
+.out-form-container {}
+
+.right-bottom-form {
+    background-color: #d9bb62;
+    height: 30vh;
+
+
 }
 
 input {
