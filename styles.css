@@ -91,7 +91,7 @@ video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article,
+/* article,
 aside,
 details,
 figcaption,
@@ -130,7 +130,7 @@ q:after {
 table {
     border-collapse: collapse;
     border-spacing: 0;
-}
+} */
 
 /* new CSS content */
 
@@ -142,14 +142,12 @@ table {
     display: flex;
     justify-content: space-between;
     height: 100vh;
-
 }
 
 .background-img,
 .right {
     border: 5px solid black;
     min-height: 100%;
-
 }
 
 .background-img {
@@ -165,28 +163,60 @@ table {
 .brand {
 
     color: rgb(171, 97, 97);
-    background-color: rgb(119, 166, 184, 0);
-    /*turned off transparency*/
     font-size: 4rem;
     margin: 30% 0 0 0;
-    padding: 2% 2% 2% 50%;
+    padding: 2% 2% 2% 49%;
 }
 
 .right {
     flex: 3;
     display: flex;
     flex-direction: column;
-}
-
-.right div {
-    border: 5px solid black;
+    font-size: 1.5rem;
 }
 
 .sign-up {
     flex: 3;
+    background-color: #AA4A44;
+    margin-bottom: 3px;
+    box-shadow: 0px 4px 5px -3px #650d0d;
+
+}
+
+.right>div {
+    padding: 4%;
 }
 
 .intro,
 .submit {
-    flex: 2
+    flex: 2;
+    background-color: #d9bb62;
+    color: #353c40;
+}
+
+h1 {
+    font-size: 3rem;
+    padding-bottom: 5%;
+}
+
+h2 {
+    margin-bottom: 5%;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-container div {
+
+    flex: 1;
+}
+
+input {
+    width: 70%;
+}
+
+div>label {
+    display: block;
 }
