@@ -181,7 +181,7 @@ table {
 
 .sign-up {
     flex: 3;
-    background-color: #AA4A44;
+    background-color: #8da2bd;
     margin-bottom: 3px;
     box-shadow: 0px 4px 5px -3px #650d0d;
 
@@ -214,27 +214,44 @@ h2 {
     justify-content: space-between;
     padding-bottom: 20px;
 
-
 }
 
 .form-container div {
     flex: 1;
-
 }
 
-.out-form-container {}
 
 .right-bottom-form {
     background-color: #d9bb62;
     height: 30vh;
-
-
 }
 
 input {
     width: 70%;
 }
 
+input:invalid {
+    border-color: red;
+}
+
 div>label {
     display: block;
+}
+
+.matching {
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+}
+
+button {
+    background-color: #872013;
+    color: #dbf2fc;
+    margin: 1%;
+    width: 200px;
+    height: 50px;
+}
+
+p {
+    margin: 1%;
 }

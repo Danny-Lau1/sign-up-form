@@ -36,8 +36,11 @@
 
                                     <div>
                                         <label for="password">Password</label>
-                                        <input type="password" name="password" id="password">
+                                        <input required="password" name="password" id="password">
+                                        <p class="matching">Passwords do not match</p>
                                     </div>
+
+
                                 </div>
                                 <div class="right-form">
                                     <div>
@@ -46,16 +49,22 @@
                                     </div>
                                     <div>
                                         <label for="phone-number">Phone Number</label>
-                                        <input type="number" name="phone-number" id="phone-number">
+                                        <input type="tel" name="phone-number" id="phone-number"
+                                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
                                     </div>
                                     <div>
                                         <label for="confirm-password">Confirm Password</label>
-                                        <input type="password" name="confirm-password" id="confirm-password">
+                                        <input required type="password" name="confirm-password" id="confirm-password">
                                     </div>
                                 </div>
                             </div>
                             <div class="right-bottom-form">
-                                <button type="submit">Submit</button>
+                                <button type="submit">Create Account</button>
+                                <p>Already have an account? <span>
+                                        <a href="">Log In</a></span></p>
+                            </div>
+                            <div>
+
                             </div>
                         </div>
                     </form>
