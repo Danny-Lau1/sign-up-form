@@ -5,7 +5,7 @@ let confirm_password = document.querySelector("#confirm-password")
 let matching = document.querySelector(".matching")
 
 
-if (initial_password.textContent === "" && initial_password.textContent === confirm_password.textContent) {
+if (initial_password.textContent !== "" && initial_password.textContent === confirm_password.textContent) {
     matching.textContent = "Passwords Match!"
 }
 else {
